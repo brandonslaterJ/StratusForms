@@ -318,7 +318,7 @@ return returnValue;
 }
 
 $.fn.StratusFormsSaveForm = function (listName, formID, StratusFormsValuePairs, saveCompleteFunc,StratusFormsChildListData, UploadFiles) {
-
+var ID;
 var	headers = {
 		Accept: "application/json;odata=nometadata",
 		"Content-Type": "application/json;odata=nometadata",
